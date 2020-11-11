@@ -19,11 +19,11 @@
 }
 @keyframes jump{
     0%{top: 150px;}
-    30%{top:100px}
-    70%{top:100px}
-    100%{top:150px}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
 }
-#block {
+#block{
     width: 20px;
     height: 20px;
     background-color: blue;
@@ -33,6 +33,6 @@
     animation: block is infinite linear;
 }
 @keyframes block{
-    0%{left: 480px;}
-    100%{left: -40px;}
+    0%{left: 500px;}
+    100%{left: -20px;}
 }
