@@ -1,11 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 #game{
     width: 500px;
     height: 200px;
     border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 15%;
+    
 }
 #character{
     width: 20px;
@@ -35,4 +39,23 @@
 @keyframes block{
     0%{left: 500px;}
     100%{left: -20px;}
+}
+#jumpBtn {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#count {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
