@@ -3,6 +3,7 @@ var block = document.getElementById("block");
 var counter = 0;
 
 var count = document.getElementById("count")
+
 function jump(){
     if(character.classList != "animate"){
         character.classList.add("animate");
@@ -19,6 +20,6 @@ var checkDead = setInterval(function(){
     if(blockLeft<20 && blockLeft>0 && characterTop>=130){
         block.style.animation = "none";
         block.style.display = "none";
-        alert("you lose.");
+        document.getElementById("gameOver").innerHTML = "You have dodged this " + counter + " times, but now it's time to pay your taxes!!!"
     }
 },10);
